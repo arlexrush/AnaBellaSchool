@@ -113,5 +113,12 @@
 			}
 		}
 	});
-
+	/* Who we are Galery*/
+	const BoxImg1=document.querySelector(".img.img-1");
+	BoxImg1.addEventListener("click", ()=>{document.querySelector(".container-grid.imgbox-1").style.gridTempleteAreas=
+	"img-1 img-1 img-1 img-2"
+  	"img-1 img-1 img-1 img-3"
+  	"img-1 img-1 img-1 img-4"
+  	"img-1 img-1 img-1 img-4";})
+	
 })(jQuery);
