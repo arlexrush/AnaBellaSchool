@@ -205,7 +205,7 @@ a:hover {
 .title-left-b {
   font-size: 2rem;
   position: relative;
-  color: #ffffff;
+  
 }
 
 .title-left:before {
@@ -1105,6 +1105,301 @@ color: #ffffff;
   height: 66.53px;
 }
 
+/*Start SlideShow-1///////////////////////////////////////////////*/
+
+.slideShow-1{
+  width: 100%;
+  position: relative;
+}
+
+.slider{
+  position: relative;
+  padding-inline-start: 0px;
+  width: 100%;
+  
+}
+
+.slider img{
+  width: 100%;
+  border-radius: 5%;
+}
+
+.pagination{
+  position: absolute;
+  width: 100%;
+  display:flex;
+  top: 100%;
+  justify-content: center;
+  cursor: pointer;
+  color: #0f0f0f;
+}
+
+.left, .right{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  color: #ffffff;  
+  cursor: pointer;
+}
+
+.left{
+  left: 0%;
+}
+
+.right{
+  right: 0%;
+}
+/*End SlideShow-1///////////////////////////////////////////////*/
+
+/*Start SlideShow-2///////////////////////////////////////////////*/
+.slideShow-2{
+  width: 100%;
+  position: relative;
+}
+
+.slider-2{
+  position: relative;
+  padding-inline-start: 0px;
+  width: 100%;
+  
+}
+
+.slider-2 img{
+  width: 100%;
+  border-radius: 5%;
+}
+
+.pagination-2{
+  list-style: none;
+  position: absolute;
+  width: 100%;
+  display:flex;
+  top: 100%;
+  justify-content: center;
+  cursor: pointer;
+  color: #0f0f0f;
+}
+
+.left-2, .right-2{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  color: #ffffff;  
+  cursor: pointer;
+}
+
+.left-2{
+  left: 0%;
+}
+
+.right-2{
+  right: 0%;
+}
+/*End SlideShow-2///////////////////////////////////////////////*/
+
+/*Start SlideShow-3///////////////////////////////////////////////*/
+
+.slideShow-3{
+  width: 100%;
+  position: relative;
+}
+
+.slider-3{
+  position: relative;
+  padding-inline-start: 0px;
+  width: 100%;
+  
+}
+
+.slider-3 img{
+  width: 100%;
+  border-radius: 5%;
+}
+
+.pagination-3{
+  list-style: none;
+  position: absolute;
+  width: 100%;
+  display:flex;
+  top: 100%;
+  justify-content: center;
+  cursor: pointer;
+  color: #0f0f0f;
+}
+
+.left-3, .right-3{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  color: #ffffff;  
+  cursor: pointer;
+}
+
+.left-3{
+  left: 0%;
+}
+
+.right-3{
+  right: 0%;
+}
+
+/*End SlideShow-3///////////////////////////////////////////////*/
+
+/*Start SlideShow-4///////////////////////////////////////////////*/
+.slideShow-4{
+  width: 100%;
+  position: relative;
+}
+
+.slider-4{
+  position: relative;
+  padding-inline-start: 0px;
+  width: 100%;
+  
+}
+
+.slider-4 img{
+  width: 100%;
+  border-radius: 5%;
+}
+
+.pagination-4{
+  list-style: none;
+  position: absolute;
+  width: 100%;
+  display:flex;
+  top: 100%;
+  justify-content: center;
+  cursor: pointer;
+  color: #0f0f0f;
+}
+
+.left-4, .right-4{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  color: #ffffff;  
+  cursor: pointer;
+}
+
+.left-4{
+  left: 0%;
+}
+
+.right-4{
+  right: 0%;
+}
+
+/*End SlideShow-4///////////////////////////////////////////////*/
+
+/*Start SlideShow-5///////////////////////////////////////////////*/
+
+.slideShow-5{
+  width: 100%;
+  position: relative;
+}
+
+.slider-5{
+  position: relative;
+  padding-inline-start: 0px;
+  width: 100%;
+  
+}
+
+.slider-5 img{
+  width: 100%;
+  border-radius: 5%;
+}
+
+.pagination-5{
+  list-style: none;
+  position: absolute;
+  width: 100%;
+  display:flex;
+  top: 100%;
+  justify-content: center;
+  cursor: pointer;
+  color: #0f0f0f;
+}
+
+.left-5, .right-5{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  color: #ffffff;  
+  cursor: pointer;
+}
+
+.left-5{
+  left: 0%;
+}
+
+.right-5{
+  right: 0%;
+}
+
+/*End SlideShow-5///////////////////////////////////////////////*/
+
+/*Start SlideShow-6///////////////////////////////////////////////*/
+
+.slideShow-6{
+  width: 100%;
+  position: relative;
+}
+
+.slider-6{
+  position: relative;
+  padding-inline-start: 0px;
+  width: 100%;
+  
+}
+
+.slider-6 img{
+  width: 100%;
+  border-radius: 5%;
+}
+
+.pagination-6{
+  list-style: none;
+  position: absolute;
+  width: 100%;
+  display:flex;
+  top: 100%;
+  justify-content: center;
+  cursor: pointer;
+  color: #0f0f0f;
+}
+
+.left-6, .right-6{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  color: #ffffff;  
+  cursor: pointer;
+}
+
+.left-6{
+  left: 0%;
+}
+
+.right-6{
+  right: 0%;
+}
+
+/*End SlideShow-6///////////////////////////////////////////////*/
+
 /*======================================
 //--//-->   COUNTER
 ======================================*/
@@ -1638,6 +1933,7 @@ footer .credits a {
 
 .sectionCourse{
   padding: 0;
+  
 }  
 
 .superCourses{  
@@ -1756,6 +2052,7 @@ footer .credits a {
 .supercourse{
   background-color:#000000;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   padding-top: 1.5rem;
 }
 
