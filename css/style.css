@@ -1400,6 +1400,57 @@ color: #ffffff;
 
 /*End SlideShow-6///////////////////////////////////////////////*/
 
+/*Start SlideShow-7///////////////////////////////////////////////*/
+
+.slideShow-7{
+  width: 100%;
+  position: relative;
+}
+
+.slider-7{
+  position: relative;
+  padding-inline-start: 0px;
+  width: 100%;
+  
+}
+
+.slider-7 img{
+  width: 100%;
+  border-radius: 5%;
+}
+
+.pagination-7{
+  list-style: none;
+  position: absolute;
+  width: 100%;
+  display:flex;
+  top: 100%;
+  justify-content: center;
+  cursor: pointer;
+  color: #0f0f0f;
+}
+
+.left-7, .right-7{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  color: #ffffff;  
+  cursor: pointer;
+}
+
+.left-7{
+  left: 0%;
+}
+
+.right-7{
+  right: 0%;
+}
+
+/*End SlideShow-7///////////////////////////////////////////////*/
+
+
 /*======================================
 //--//-->   COUNTER
 ======================================*/
