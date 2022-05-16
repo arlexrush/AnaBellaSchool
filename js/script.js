@@ -7,6 +7,7 @@ $(document).ready(function(){
     var imgPos5=1;
     var imgPos6=1;
     var imgPos7=1;
+    var imgPos8=1;
     // Oculatar los Tabs
     $('.detail').hide();
     //Mostrar el tab MakeUp
@@ -719,6 +720,70 @@ $(document).ready(function(){
         $('.slider-7 img:nth-child('+imgPos7+')').fadeIn('slow');
         $('.pagination-7 li').css({'color': '#0f0f0f'});
         $('.pagination-7 li:nth-child('+imgPos7+')').css({'color': '#ffa600'});
+    }
+
+    /* Start slideShow-8*/
+
+    // Agregar los tabs de paginación
+    var imgItems=$('.slider-8 img').length; // Numero de slides 
+    
+    for( i=1;i<=imgItems;i++){
+        //console.log(i);
+        $('.pagination-8').append('<li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-record-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z"/></svg></li>');
+    }
+    //agregando el slide inicial de imagenes de los Trainings
+    $('.slider-8 img').hide();
+    $('.slider-8 img:first').show();
+    $('.pagination-8 li:first').css({'color': '#ffa600'});
+
+    $('.pagination-8 li').click(PaginationTo8);
+    $('.right-8 svg').click(NextSliderTo8);
+    $('.left-8 svg').click(PrevSliderTo8);
+
+    setInterval(function(){
+        NextSliderTo8();
+    }, 5000);
+
+    function PaginationTo8(){
+        $('.slider-8 img').hide();
+        var paginationPos8=($(this).index())+1;
+        //console.log(paginationPos);
+        //$('.slider li img:first').fadeIn('slow');
+        //$('.slider img').fadeIn('slow');
+        $('.slider-8 img:nth-child('+paginationPos8+')').fadeIn('slow');
+        $('.pagination-8 li').css({'color': '#0f0f0f'});
+        $(this).css({'color': '#ffa600'});
+        return paginationPos8;
+    }
+    
+    function NextSliderTo8(){
+        imgPos8++;
+        console.log(imgPos8);
+        var endSlider=$('.pagination-8 li').length;
+        console.log(endSlider);        
+        //console.log(endSlider);
+        if(imgPos8>endSlider){
+            imgPos8=1;            
+        }
+        $('.slider-8 img').hide();
+        $('.slider-8 img:nth-child('+imgPos8+')').fadeIn('slow');
+        $('.pagination-8 li').css({'color': '#0f0f0f'});
+        $('.pagination-8 li:nth-child('+imgPos8+')').css({'color': '#ffa600'});
+    }
+
+    function PrevSliderTo8(){
+        imgPos8--;
+        console.log(imgPos8);
+        var endSlider=$('.pagination-8 li').length;
+        console.log(endSlider);        
+        //console.log(endSlider);
+        if(imgPos8<1){
+            imgPos8=endSlider;            
+        }
+        $('.slider-8 img').hide();
+        $('.slider-8 img:nth-child('+imgPos8+')').fadeIn('slow');
+        $('.pagination-8 li').css({'color': '#0f0f0f'});
+        $('.pagination-8 li:nth-child('+imgPos8+')').css({'color': '#ffa600'});
     }
 })
 
