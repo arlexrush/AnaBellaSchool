@@ -785,5 +785,6 @@ $(document).ready(function(){
         $('.pagination-8 li').css({'color': '#0f0f0f'});
         $('.pagination-8 li:nth-child('+imgPos8+')').css({'color': '#ffa600'});
     }
+    
 })
 
